@@ -28,3 +28,4 @@ Note that a video can be `private`: you must be authenticated to access to it (v
 *Notes:*
 
 - the authentification part for the private videos doesn't have to be written. Just think about the interaction flow between the client and the server
+- you can launch the server with `$ node index.js`
