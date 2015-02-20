@@ -19,6 +19,11 @@ A Video is composed of:
 
 Note that a video can be `private`: you must be authenticated to access it (valid access_token as QS parameter)
 
+### Setup
+
+- install dependencies (express framework for Node.JS) with `npm install`
+- you can launch the server with `$ node index.js`
+
 ### Let's work
 
 - given the node server bootstrap (index.js), create the specific endpoints for **R**eading, **U**pdating and **D**eleting a video
@@ -28,4 +33,3 @@ Note that a video can be `private`: you must be authenticated to access it (vali
 *Notes:*
 
 - the authentication part for the private videos doesn't have to be written. Just think about the interaction flow between the client and the server
-- you can launch the server with `$ node index.js`
