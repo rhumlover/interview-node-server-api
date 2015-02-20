@@ -26,7 +26,7 @@ Note that a video can be `private`: you must be authenticated to access it (vali
 
 ### Let's work
 
-- given the node server bootstrap (index.js), create the specific endpoints for **R**eading, **U**pdating and **D**eleting a video
+- given the node server bootstrap (index.js), create the specific endpoints for **C**reating, **R**eading, **U**pdating and **D**eleting a video
 - we'll emulate a **local database** by storing a small video catalog in `videos.json`
 - focus more on **architecture principles** rather than actual coding. If you can code something it's a bonus, but we want to see how you would architecture the code, which areas you'll focus on.
 
