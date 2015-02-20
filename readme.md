@@ -1,23 +1,23 @@
 # Server-Side API with Node.JS
 
 ### Goal
-As a developer, I want to use a Video API in order to manage a video list. The tpyical use cases are :
+As a developer, I want to use a Video API in order to manage a video list. The typical use cases are :
 
-- fetch a video's informations
-- update a video's informations
+- fetch a video's information
+- update a video's information
 - delete a video
 
 So... How would you design this API? :)
 
 ### The Video Object
-A Video is composed by:
+A Video is composed of:
 
 - `id`
 - `title`
 - `thumbnail_url`
 - `private`
 
-Note that a video can be `private`: you must be authenticated to access to it (valid access_token as QS parameter)
+Note that a video can be `private`: you must be authenticated to access it (valid access_token as QS parameter)
 
 ### Let's work
 
@@ -27,5 +27,5 @@ Note that a video can be `private`: you must be authenticated to access to it (v
 
 *Notes:*
 
-- the authentification part for the private videos doesn't have to be written. Just think about the interaction flow between the client and the server
+- the authentication part for the private videos doesn't have to be written. Just think about the interaction flow between the client and the server
 - you can launch the server with `$ node index.js`
